@@ -51,7 +51,7 @@ app.get('/weather', (req, res) => {
 
     if(!req.query.address){
         return res.send({
-            error: 'lPlease specify the location you want to see the weather.'
+            error: 'Please specify the location you want to see the weather.'
         })
     }
 
